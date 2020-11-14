@@ -17,7 +17,7 @@ class LoginActivity : AppCompatActivity() {
     // Google Sign-In Methods
     var googleSignInClient : GoogleSignInClient? = null
     val RC_SIGN_IN = 1000
-
+    
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
