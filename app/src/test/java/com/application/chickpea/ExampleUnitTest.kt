@@ -1,4 +1,4 @@
-package com.example.chickpea
+package com.application.chickpea
 
 import org.junit.Test
 
