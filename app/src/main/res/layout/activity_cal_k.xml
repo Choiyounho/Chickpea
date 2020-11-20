@@ -63,6 +63,7 @@
             android:gravity="center_horizontal"
             android:textColor="#222222"
             android:text="SUN"/>
+
     </LinearLayout>
     <!-- 달력의 일자 섹션 구성 -->
     <GridView
@@ -70,6 +71,8 @@
         android:layout_width="match_parent"
         android:layout_height="240dp"
         android:numColumns="7"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints" >
+
+    </GridView>
 </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -26,6 +26,10 @@ class CalendarAdapter(context: Context, days: ArrayList<Date>, eventDays: HashSe
         val today = Date()
         val calendarToday = Calendar.getInstance()
         calendarToday.time = today
+        val eventDays: HashSet<Date> = HashSet()
+        eventDays.add(Date())
+
+
         if (view == null) {
             view = inflater.inflate(R.layout.calendar_day_layout, parent, false)
         }

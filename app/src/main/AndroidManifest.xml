@@ -14,16 +14,15 @@
         android:theme="@style/Theme.Chickpea">
         <activity android:name=".CalendarAdapter"
             tools:ignore="Instantiatable">
+        </activity>
+        <activity android:name=".calH" />
+        <activity android:name=".calY" />
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".calH" />
-        <activity android:name=".calY" />
-        <activity android:name=".LoginActivity">
-
         </activity>
         <activity android:name=".MainActivity" />
     </application>
