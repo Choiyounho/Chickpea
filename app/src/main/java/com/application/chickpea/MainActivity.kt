@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_cal_k)
+        setContentView(R.layout.activity_main)
 
         slide = SliderAdapter(this)
 //        viewPager.adapter = slide
