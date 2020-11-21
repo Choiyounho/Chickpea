@@ -7,14 +7,10 @@ import com.google.android.material.tabs.TabLayout
 
 
 class MainActivity : AppCompatActivity() {
-    private val viewPager by lazy{ findViewById<ViewPager>(R.id.calendar_grid) }
-    private lateinit var slide : SliderAdapter
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        slide = SliderAdapter(this)
-//        viewPager.adapter = slide
+
     }
 }

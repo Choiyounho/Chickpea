@@ -18,7 +18,7 @@ android {
 
     defaultConfig {
         applicationId "com.application.chickpea"
-        minSdkVersion 16
+        minSdkVersion 17
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -54,6 +54,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-analytics-ktx'
     implementation 'com.google.firebase:firebase-auth:19.3.1'
     implementation 'com.google.android.gms:play-services-auth:17.0.0'
+    implementation 'com.github.applikeysolutions:cosmocalendar:1.0.4'
 
     kapt 'com.android.databinding:compiler:3.5.3'
     testImplementation 'junit:junit:4.+'
