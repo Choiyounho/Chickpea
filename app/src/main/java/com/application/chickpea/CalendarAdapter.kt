@@ -15,6 +15,7 @@ import kotlin.collections.HashSet
 class CalendarAdapter(context: Context, days: ArrayList<Date>, eventDays: HashSet<Date>, inputMonth: Int) : ArrayAdapter<Date>(context, R.layout.calendar_day_layout, days) {
     private val inflater: LayoutInflater = LayoutInflater.from(context)
     private val inputMonth = inputMonth - 1
+
     override fun getView(position: Int, view: View?, parent: ViewGroup): View {
         var view = view
         val calendar = Calendar.getInstance()
@@ -33,6 +34,7 @@ class CalendarAdapter(context: Context, days: ArrayList<Date>, eventDays: HashSe
         if (view == null) {
             view = inflater.inflate(R.layout.calendar_day_layout, parent, false)
         }
+
         (view as TextView).setTypeface(null, Typeface.NORMAL)
         view.setTextColor(Color.parseColor("#56a6a9"))
         if (month != inputMonth || year != calendarToday.get(Calendar.YEAR)) {

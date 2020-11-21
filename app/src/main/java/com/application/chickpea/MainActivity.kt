@@ -15,6 +15,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_cal_k)
 
         slide = SliderAdapter(this)
-        viewPager.adapter = slide
+//        viewPager.adapter = slide
     }
 }
