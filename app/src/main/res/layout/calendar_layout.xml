@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".CalenderView">
 
     <com.applikeysolutions.cosmocalendar.view.CalendarView
         android:id="@+id/calendar_view"
@@ -19,5 +19,8 @@
         app:selectedDayBackgroundStartColor="#f79256"
         app:selectedDayTextColor="#FFFFFF"
         app:selectionType="range"
-        app:weekendDayTextColor="#ef4550" />
+        app:weekendDayTextColor="#ef4550" >
+
+    </com.applikeysolutions.cosmocalendar.view.CalendarView>
+
 </LinearLayout>

@@ -3,8 +3,10 @@ package com.application.chickpea
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
+import com.applikeysolutions.cosmocalendar.selection.MultipleSelectionManager
 import com.applikeysolutions.cosmocalendar.selection.OnDaySelectedListener
 import com.applikeysolutions.cosmocalendar.selection.RangeSelectionManager
+import com.applikeysolutions.cosmocalendar.selection.SingleSelectionManager
 import kotlinx.android.synthetic.main.calendar_layout.*
 
 class CalenderView : AppCompatActivity() {
